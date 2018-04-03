@@ -1,5 +1,5 @@
 class AppointmentsController < ApplicationController
-  def index
+  def show
     @appointments = Appointment.all
   end
 end
